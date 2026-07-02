@@ -32,7 +32,7 @@ go run bencode_simple.go
 
 ### 2. Torrent 文件解析 (`parse_torrent.go`)
 
-演示如何读取和解析 `.torrent` 文件：
+演示如何使用 **pkg/torrent 库** 读取和解析 `.torrent` 文件：
 
 ```bash
 # 运行（会自动在 examples 和 ../（根目录）查找 .torrent 文件）
@@ -47,12 +47,22 @@ go run parse_torrent.go init.go
 # - 统计信息
 ```
 
-**学到的内容：**
-- Torrent 文件格式
-- Info Hash 计算（SHA1）
-- Tracker 地址处理
-- 分片管理
-- 元数据提取
+**为什么这样写：**
+这个示例直接使用 `pkg/torrent` 包中的 `TorrentInfo` 结构体和方法，而不是手动解析 Bencode。这样代码更清晰、更安全、更易维护。
+
+**使用的库方法：**
+```go
+// 解析文件
+t, err := torrent.ParseTorrent(file)
+
+// 获取数据
+t.TotalSize()        // 总大小
+t.NumPieces()        // 分片数
+t.Mode()             // 模式（单/多文件）
+t.InfoHashHex()      // Info Hash（40 字符十六进制）
+t.Info.Name          // 文件名
+t.Info.Files         // 文件列表
+```
 
 ---
 
