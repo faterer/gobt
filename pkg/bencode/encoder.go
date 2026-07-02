@@ -38,6 +38,8 @@ func (e *Encoder) encode(v interface{}) error {
 		return e.encodeIntegerValue(int64(val))
 	case string:
 		return e.encodeStringValue(val)
+	case []byte:
+		return e.encodeByteStringValue(val)
 	case []interface{}:
 		return e.encodeListValue(val)
 	case map[string]interface{}:
@@ -84,6 +86,14 @@ func (e *Encoder) encodeStringValue(s string) error {
 	length := len(s)
 	e.buf.WriteString(fmt.Sprintf("%d:", length))
 	e.buf.WriteString(s)
+	return nil
+}
+
+// encodeByteStringValue encodes a byte string without resetting buffer
+func (e *Encoder) encodeByteStringValue(b []byte) error {
+	length := len(b)
+	e.buf.WriteString(fmt.Sprintf("%d:", length))
+	e.buf.Write(b)
 	return nil
 }
 
