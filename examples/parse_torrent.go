@@ -249,17 +249,26 @@ func main() {
 	fmt.Println("\n🚀 Bencode Torrent Parser Example")
 	fmt.Println(strings.Repeat("=", 60))
 
-	// Find torrent files
+	// Find torrent files - search in current directory and parent directory
 	torrentFiles, err := filepath.Glob("*.torrent")
 	if err != nil {
 		fmt.Printf("Error searching for torrent files: %v\n", err)
 		return
 	}
 
+	// If no files in current directory, search in parent directory
 	if len(torrentFiles) == 0 {
-		fmt.Println("\n❌ No .torrent files found in current directory!")
-		fmt.Println("\nTo create sample torrent files, run:")
-		fmt.Println("  go run create_torrent.go")
+		parentFiles, err := filepath.Glob("../*.torrent")
+		if err == nil && len(parentFiles) > 0 {
+			torrentFiles = parentFiles
+		}
+	}
+
+	if len(torrentFiles) == 0 {
+		fmt.Println("\n❌ No .torrent files found!")
+		fmt.Println("\nMake sure you have .torrent files in:")
+		fmt.Println("  • Current directory (./)")
+		fmt.Println("  • Parent directory (../)")
 		return
 	}
 
