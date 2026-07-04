@@ -263,7 +263,7 @@ gobt/
 │   ├── SUMMARY.md                 (已有)
 │   ├── QUICKREF.md                (已有)
 │   ├── INDEX.md                   (已有)
-│   └── LEARNING_PLAN.md           ✅ 本文档
+│   └── archive/                   (历史文档归档)
 ├── go.mod                         ✅ 已有
 ├── README.md                      ✅ 已有
 └── .git/                          ✅ 已初始化
@@ -273,12 +273,12 @@ gobt/
 
 ## 下一步怎么做？
 
-### 选项1: 跟随LEARNING_PLAN (推荐)
+### 选项1: 跟随项目计划 (推荐)
 ```
 继续学习第一阶段，进入Bencode编解码
 
 阅读:
-1. docs/LEARNING_PLAN.md - 第二阶段
+1. project_plan.md - Week 5 之后的执行计划
 2. docs/QUICKREF.md - Bencode部分
 
 实现:
@@ -368,8 +368,8 @@ git commit -m "feat: init project"
 
 ### Q: 如何继续下一步？
 
-**A**: 
-参考 `docs/LEARNING_PLAN.md` 的**第二阶段**部分，学习Bencode编解码。
+**A**:
+参考 `project_plan.md` 的下一周任务，并结合 `docs/QUICKREF.md` 开始实现。
 
 ---
 
@@ -380,7 +380,7 @@ git commit -m "feat: init project"
 | 问题 | 文档 |
 |------|------|
 | 不理解项目结构 | docs/INDEX.md |
-| 想了解下一步做什么 | docs/LEARNING_PLAN.md |
+| 想了解下一步做什么 | project_plan.md |
 | 对BitTorrent有疑问 | docs/QUICKREF.md |
 | 想看代码框架 | docs/ARCHITECTURE.md |
 | 想看整体计划 | docs/ROADMAP.md |

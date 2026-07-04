@@ -130,7 +130,8 @@ go run parse_torrent.go init.go
 
 ## 📚 更多学习资源
 
-- 查看根目录的 `TORRENT_READING_GUIDE.md` - 详细完整指南
-- 查看根目录的 `TORRENT_QUICK_REFERENCE.md` - 快速参考
+- 查看 `docs/QUICKREF.md` - 当前维护中的快速参考
+- 查看 `docs/archive/TORRENT_READING_GUIDE.md` - 历史详细指南
+- 查看 `docs/archive/TORRENT_QUICK_REFERENCE.md` - 历史速查
 - 查看 `pkg/bencode/` 包的源代码
 - 查看 `pkg/torrent/` 包的源代码

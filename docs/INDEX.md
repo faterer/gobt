@@ -194,8 +194,20 @@ gobt/
     ├── ARCHITECTURE.md          # 架构文档 ⭐⭐⭐⭐⭐
     ├── ROADMAP.md               # 路线图 ⭐⭐⭐
     ├── SUMMARY.md               # 项目总结 ⭐⭐
-    └── QUICKREF.md              # 快速参考 ⭐⭐
+   ├── QUICKREF.md              # 快速参考 ⭐⭐
+   └── archive/                 # 历史阶段文档
 ```
+
+## 🗃️ 历史归档文档
+
+以下文档已归档到 `docs/archive/`，用于历史回顾，不再作为当前执行主线：
+
+- `LEARNING_GUIDE.md`
+- `LEARNING_PLAN.md`
+- `P2P_ARCHITECTURE.md`
+- `TORRENT_READING_GUIDE.md`
+- `TORRENT_QUICK_REFERENCE.md`
+- `WEEK3_COMPLETE.md`
 
 ---
 
