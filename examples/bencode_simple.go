@@ -1,9 +1,11 @@
+//go:build bencode_example
+
 package main
 
 import (
 	"bytes"
 	"fmt"
-	"gop2p/pkg/bencode"
+	"gobt/pkg/bencode"
 )
 
 func main() {
@@ -30,7 +32,7 @@ func main() {
 	// 示例4: 编码字典
 	fmt.Println("\n4. 编码字典")
 	dict := map[string]interface{}{
-		"name": "gop2p",
+		"name": "gobt",
 		"version": 1,
 	}
 	result, _ = encoder.Encode(dict)
@@ -38,7 +40,7 @@ func main() {
 
 	// 示例5: 解码
 	fmt.Println("\n5. 解码示例")
-	bencodedData := []byte("d4:name4:gop2p7:versioni1ee")
+	bencodedData := []byte("d4:name4:gobt7:versioni1ee")
 	decoder := bencode.NewDecoder(bytes.NewReader(bencodedData))
 	decoded, _ := decoder.Decode()
 	fmt.Printf("   decoder.Decode() => %v\n", decoded)

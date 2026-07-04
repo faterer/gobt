@@ -36,10 +36,10 @@ go env GOPATH
 
 ```bash
 # Windows:
-cd d:\CODE\github\go\gop2p
+cd d:\CODE\github\go\gobt
 
 # Linux/Mac:
-cd ~/path/to/gop2p
+cd ~/path/to/gobt
 ```
 
 ### 2.2 检查现有文件
@@ -55,7 +55,7 @@ ls
 # .idea/
 
 # 如果go.mod不存在，创建它:
-go mod init gop2p
+go mod init gobt
 
 # 这会创建 go.mod 文件
 ```
@@ -66,7 +66,7 @@ go mod init gop2p
 cat go.mod
 
 # 输出应该是:
-# module gop2p
+# module gobt
 # go 1.25
 ```
 
@@ -93,11 +93,11 @@ package main
 
 import (
 	"fmt"
-	"gop2p/pkg/utils"
+	"gobt/pkg/utils"
 )
 
 func main() {
-	fmt.Println("=== gop2p BitTorrent Client ===")
+	fmt.Println("=== gobt BitTorrent Client ===")
 	fmt.Printf("Version: %s\n", utils.Version())
 	fmt.Println("Ready to download torrents!")
 }
@@ -131,7 +131,7 @@ func Version() string {
 go run ./cmd
 
 # 预期输出:
-# === gop2p BitTorrent Client ===
+# === gobt BitTorrent Client ===
 # Version: 4.2.0
 # Ready to download torrents!
 ```
@@ -186,7 +186,7 @@ go test ./pkg/utils -v
 # === RUN   TestVersionFormat
 # --- PASS: TestVersionFormat (0.00s)
 # PASS
-# ok      gop2p/pkg/utils  0.123s
+# ok      gobt/pkg/utils  0.123s
 ```
 
 **✅ 测试通过！**
@@ -248,7 +248,7 @@ git log --oneline
 ## 现在的项目结构
 
 ```
-gop2p/
+gobt/
 ├── cmd/
 │   └── main.go                    ✅ 已创建
 ├── pkg/
@@ -323,13 +323,13 @@ gop2p/
 **A**: 
 ```bash
 # 1. 确认你在项目根目录
-pwd  # 应该显示 ...gop2p
+pwd  # 应该显示 ...gobt
 
 # 2. 确认 main.go 存在
 ls cmd/main.go
 
 # 3. 检查导入路径
-# main.go 中的 "gop2p/pkg/utils" 必须正确
+# main.go 中的 "gobt/pkg/utils" 必须正确
 
 # 4. 尝试重新加载依赖
 go mod tidy

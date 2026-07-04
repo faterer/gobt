@@ -5,7 +5,7 @@
 ### 1.1 目录结构创建
 
 ```bash
-gop2p/
+gobt/
 ├── cmd/                          # 可执行程序入口
 │   ├── main.go                   # 程序主入口
 │   ├── cli.go                    # 命令行解析
@@ -102,8 +102,8 @@ gop2p/
 │   └── CONTRIBUTING.md          # 贡献指南
 │
 ├── config/                      # 配置文件示例
-│   ├── gop2p.yaml              # YAML配置
-│   └── gop2p.toml              # TOML配置
+│   ├── gobt.yaml              # YAML配置
+│   └── gobt.toml              # TOML配置
 │
 ├── tests/                       # 测试文件
 │   ├── integration/
@@ -898,16 +898,16 @@ make coverage
 
 ```bash
 # 基本用法
-./gop2p start ubuntu.iso.torrent
+./gobt start ubuntu.iso.torrent
 
 # 指定输出目录
-./gop2p start ubuntu.iso.torrent --output-dir /tmp/downloads
+./gobt start ubuntu.iso.torrent --output-dir /tmp/downloads
 
 # 使用配置文件
-./gop2p start ubuntu.iso.torrent --config gop2p.yaml
+./gobt start ubuntu.iso.torrent --config gobt.yaml
 
 # 显示帮助
-./gop2p help
+./gobt help
 ```
 
 ### 9.3 Docker部署
@@ -916,12 +916,12 @@ make coverage
 FROM golang:1.25-alpine AS builder
 WORKDIR /app
 COPY . .
-RUN go build -o gop2p ./cmd
+RUN go build -o gobt ./cmd
 
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
-COPY --from=builder /app/gop2p /usr/local/bin/
-ENTRYPOINT ["gop2p"]
+COPY --from=builder /app/gobt /usr/local/bin/
+ENTRYPOINT ["gobt"]
 ```
 
 ---
@@ -932,8 +932,8 @@ ENTRYPOINT ["gop2p"]
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourname/gop2p.git
-cd gop2p
+git clone https://github.com/yourname/gobt.git
+cd gobt
 
 # 安装依赖
 go mod download

@@ -1,4 +1,4 @@
-# gop2p - Go BitTorrent 4.2.0 实现
+# gobt - Go BitTorrent 4.2.0 实现
 
 > 一个用Go从零实现的完整BitTorrent 4.2.0客户端，支持高效的P2P文件传输。
 
@@ -29,8 +29,8 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourname/gop2p.git
-cd gop2p
+git clone https://github.com/yourname/gobt.git
+cd gobt
 
 # 2. 初始化
 go mod download
@@ -75,7 +75,7 @@ Phase 3 - 生产就绪         ⏳ ░░░░░░░░░░░░░░░
 ## 📦 项目结构
 
 ```
-gop2p/
+gobt/
 ├── docs/                          # 📚 文档
 │   ├── REQUIREMENTS.md            # 需求文档
 │   ├── DESIGN.md                  # 设计文档
@@ -107,7 +107,7 @@ gop2p/
 │   └── mocks/
 │
 ├── config/                        # ⚙️ 配置示例
-│   └── gop2p.yaml
+│   └── gobt.yaml
 │
 ├── go.mod                         # 依赖定义
 ├── go.sum                         # 依赖校验
@@ -273,22 +273,22 @@ make clean
 ### 跨平台编译
 ```bash
 # Linux
-GOOS=linux GOARCH=amd64 go build -o gop2p-linux ./cmd
+GOOS=linux GOARCH=amd64 go build -o gobt-linux ./cmd
 
 # macOS
-GOOS=darwin GOARCH=amd64 go build -o gop2p-darwin ./cmd
+GOOS=darwin GOARCH=amd64 go build -o gobt-darwin ./cmd
 
 # Windows
-GOOS=windows GOARCH=amd64 go build -o gop2p.exe ./cmd
+GOOS=windows GOARCH=amd64 go build -o gobt.exe ./cmd
 ```
 
 ### Docker
 ```bash
 # 构建镜像
-docker build -t gop2p:latest .
+docker build -t gobt:latest .
 
 # 运行容器
-docker run -v /data:/app/downloads gop2p:latest start example.torrent
+docker run -v /data:/app/downloads gobt:latest start example.torrent
 ```
 
 ---
@@ -389,7 +389,7 @@ docker run -v /data:/app/downloads gop2p:latest start example.torrent
 ```
 MIT License
 
-Copyright (c) 2026 gop2p contributors
+Copyright (c) 2026 gobt contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -413,8 +413,8 @@ furnished to do so, subject to the following conditions:
 
 ### 获取帮助
 - 📖 查看 [文档](docs/)
-- 🐛 提交 [Issues](https://github.com/yourname/gop2p/issues)
-- 💬 讨论 [Discussions](https://github.com/yourname/gop2p/discussions)
+- 🐛 提交 [Issues](https://github.com/yourname/gobt/issues)
+- 💬 讨论 [Discussions](https://github.com/yourname/gobt/discussions)
 
 ### 联系方式
 - Email: your-email@example.com
@@ -451,7 +451,7 @@ furnished to do so, subject to the following conditions:
 
 ## 相关链接
 
-- 🌐 [项目主页](https://github.com/yourname/gop2p)
+- 🌐 [项目主页](https://github.com/yourname/gobt)
 - 📚 [完整文档](docs/)
 - 🎯 [实现路线图](docs/ROADMAP.md)
 - ✅ [测试报告](docs/TEST_RESULTS.md)

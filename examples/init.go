@@ -3,7 +3,7 @@ package main
 import (
 	"crypto/sha1"
 	"fmt"
-	"gop2p/pkg/bencode"
+	"gobt/pkg/bencode"
 	"io/ioutil"
 	"time"
 )
@@ -29,7 +29,7 @@ func init() {
 		"announce":      "http://tracker.example.com:6969/announce",
 		"info":          infoDict,
 		"creation date": time.Now().Unix(),
-		"created by":    "gop2p example",
+		"created by":    "gobt example",
 	}
 
 	// Encode to bencode

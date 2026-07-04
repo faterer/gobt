@@ -10,7 +10,7 @@ package main
 import (
     "fmt"
     "os"
-    "gop2p/pkg/torrent"
+    "gobt/pkg/torrent"
 )
 
 func main() {
@@ -49,7 +49,7 @@ package main
 
 import (
     "crypto/sha1"
-    "gop2p/pkg/torrent"
+    "gobt/pkg/torrent"
     "os"
 )
 
@@ -208,7 +208,7 @@ d
       l40:http://backup2.example.com:6969/announcee
     e
   7:comment  69:这是一个演示 Torrent 文件...
-  10:created by  20:gop2p v1.0 - Example
+  10:created by  20:gobt v1.0 - Example
   13:creation date  i1782958346e
   4:info
     d

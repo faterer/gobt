@@ -324,7 +324,7 @@ Peer握手        ✅
 
 ### Step 1: 项目初始化 (1天)
 ```bash
-mkdir -p gop2p/pkg/{bencode,torrent,protocol,tracker,dht,network,storage,hash,core,config,logger,utils}
+mkdir -p gobt/pkg/{bencode,torrent,protocol,tracker,dht,network,storage,hash,core,config,logger,utils}
 touch go.mod go.sum
 # 添加必要的README和Makefile
 ```

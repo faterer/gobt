@@ -49,7 +49,7 @@
 ### 2.1 模块划分
 
 ```
-gop2p/
+gobt/
 ├── cmd/                          # 命令行入口
 │   ├── main.go
 │   └── cli.go
@@ -743,7 +743,7 @@ retryAfter += time.Duration(rand.Intn(1000)) * time.Millisecond
 ## 10. 配置系统
 
 ```yaml
-# gop2p.yaml
+# gobt.yaml
 
 network:
   max_connections: 200

@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Rename-Item -Path \"d:\\\\CODE\\\\github\\\\go\\\\gobt\" -NewName \"gobt\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

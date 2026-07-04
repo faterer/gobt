@@ -189,7 +189,7 @@ Allows clean serialization to/from torrent files.
 ### Creating a Torrent
 
 ```go
-import "gop2p/pkg/torrent"
+import "gobt/pkg/torrent"
 
 t := &torrent.TorrentInfo{
     Announce: "http://tracker.example.com/announce",

@@ -1,7 +1,7 @@
 # 📋 BitTorrent 4.2.0 Go实现 - 文档生成总结报告
 
 **生成时间**: 2026-07-01  
-**项目**: gop2p (Go BitTorrent 4.2.0实现)  
+**项目**: gobt (Go BitTorrent 4.2.0实现)  
 **总体完成度**: ✅ 100% (分析与规划阶段)
 
 ---
@@ -10,7 +10,7 @@
 
 ### 1️⃣ README.md
 ```
-位置: gop2p/README.md
+位置: gobt/README.md
 字数: ~3,500字
 用途: 项目入口，快速开始
 内容:
@@ -25,7 +25,7 @@
 
 ### 2️⃣ docs/REQUIREMENTS.md
 ```
-位置: gop2p/docs/REQUIREMENTS.md
+位置: gobt/docs/REQUIREMENTS.md
 字数: ~8,500字
 用途: 详细功能需求和验收标准
 内容:
@@ -40,7 +40,7 @@
 
 ### 3️⃣ docs/DESIGN.md
 ```
-位置: gop2p/docs/DESIGN.md
+位置: gobt/docs/DESIGN.md
 字数: ~12,000字
 用途: 系统架构和设计决策
 内容:
@@ -67,7 +67,7 @@
 
 ### 4️⃣ docs/ARCHITECTURE.md
 ```
-位置: gop2p/docs/ARCHITECTURE.md
+位置: gobt/docs/ARCHITECTURE.md
 字数: ~10,000字
 用途: 项目代码架构和实现指南
 内容:
@@ -89,7 +89,7 @@
 
 ### 5️⃣ docs/ROADMAP.md
 ```
-位置: gop2p/docs/ROADMAP.md
+位置: gobt/docs/ROADMAP.md
 字数: ~12,000字
 用途: 3个月开发计划和里程碑
 内容:
@@ -117,7 +117,7 @@
 
 ### 6️⃣ docs/SUMMARY.md
 ```
-位置: gop2p/docs/SUMMARY.md
+位置: gobt/docs/SUMMARY.md
 字数: ~6,500字
 用途: 项目总体概览和数字总结
 内容:
@@ -138,7 +138,7 @@
 
 ### 7️⃣ docs/QUICKREF.md
 ```
-位置: gop2p/docs/QUICKREF.md
+位置: gobt/docs/QUICKREF.md
 字数: ~7,500字
 用途: BitTorrent快速参考和学习指南
 内容:
@@ -157,7 +157,7 @@
 
 ### 8️⃣ docs/INDEX.md
 ```
-位置: gop2p/docs/INDEX.md
+位置: gobt/docs/INDEX.md
 字数: ~8,000字
 用途: 文档中心和导航索引
 内容:

@@ -1,3 +1,3 @@
-module gop2p
+module gobt
 
 go 1.25.5

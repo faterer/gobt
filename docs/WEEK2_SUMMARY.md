@@ -1,7 +1,7 @@
-## 🎉 gop2p Week 2 - TDD 完成总结
+## 🎉 gobt Week 2 - TDD 完成总结
 
 **当前日期**: 2026-07-01  
-**项目**: gop2p - BitTorrent 4.2.0 客户端学习版  
+**项目**: gobt - BitTorrent 4.2.0 客户端学习版  
 **模块**: Bencode编解码系统  
 
 ---

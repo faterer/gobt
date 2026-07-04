@@ -277,7 +277,7 @@ BenchmarkRoundTripSmall:   100,000 ops/sec (encode+decode)
 
 ```
 commit: 91ee0e7
-author: GoP2P Learner
+author: GoBT Learner
 message: feat: implement bencode encoder/decoder with comprehensive tests
 
 前一个commit: bdb7dae (init project structure with version module)
@@ -313,6 +313,6 @@ pkg/bencode/
 
 **完成时间**: 2026-07-01  
 **版本**: BitTorrent 4.2.0  
-**项目**: gop2p - Learning Edition  
+**项目**: gobt - Learning Edition  
 
 🎉 **Week 2 完全完成！** 准备进入Week 3！

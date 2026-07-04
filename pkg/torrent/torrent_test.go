@@ -511,7 +511,7 @@ func TestRoundTripEncodeDecode(t *testing.T) {
 			{"http://backup1.example.com:6969/announce"},
 			{"http://backup2.example.com:6969/announce"},
 		},
-		CreatedBy:    "gop2p",
+		CreatedBy:    "gobt",
 		CreationDate: 1234567890,
 		Comment:      "Test torrent",
 		Info: InfoDict{

@@ -1,4 +1,4 @@
-# gop2p 学习计划 - 从零开始
+# gobt 学习计划 - 从零开始
 
 > 目标：通过逐步实现BitTorrent客户端，系统学习网络编程、分布式系统和Go语言最佳实践
 
@@ -23,7 +23,7 @@
 
 关键命令:
 $ go version
-$ go mod init gop2p
+$ go mod init gobt
 $ go run main.go
 $ go test ./...
 

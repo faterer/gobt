@@ -114,7 +114,7 @@
 go version
 
 # Step 2: 进入项目
-cd d:\CODE\github\go\gop2p
+cd d:\CODE\github\go\gobt
 
 # Step 3: 运行已有程序
 go run ./cmd
@@ -414,7 +414,7 @@ Google搜索或查看参考实现
 ### 推荐建立学习日志
 
 ```
-gop2p/
+gobt/
 └── LEARNING_LOG.md (你创建的)
 
 格式示例:

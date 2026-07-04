@@ -4,7 +4,7 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 	"fmt"
-	"gop2p/pkg/bencode"
+	"gobt/pkg/bencode"
 	"io"
 )
 

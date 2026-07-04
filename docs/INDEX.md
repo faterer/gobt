@@ -1,4 +1,4 @@
-# gop2p 文档中心
+# gobt 文档中心
 
 ## 📚 完整文档索引
 
@@ -19,7 +19,7 @@
 ## 📖 详细文档说明
 
 ### README.md
-**位置**: `gop2p/README.md`  
+**位置**: `gobt/README.md`  
 **字数**: ~3000  
 **阅读时间**: 10分钟  
 
@@ -36,7 +36,7 @@
 ---
 
 ### REQUIREMENTS.md
-**位置**: `gop2p/docs/REQUIREMENTS.md`  
+**位置**: `gobt/docs/REQUIREMENTS.md`  
 **字数**: ~8000  
 **阅读时间**: 25分钟  
 
@@ -56,7 +56,7 @@
 ---
 
 ### DESIGN.md
-**位置**: `gop2p/docs/DESIGN.md`  
+**位置**: `gobt/docs/DESIGN.md`  
 **字数**: ~12000  
 **阅读时间**: 40分钟  
 
@@ -83,7 +83,7 @@
 ---
 
 ### ARCHITECTURE.md
-**位置**: `gop2p/docs/ARCHITECTURE.md`  
+**位置**: `gobt/docs/ARCHITECTURE.md`  
 **字数**: ~10000  
 **阅读时间**: 35分钟  
 
@@ -105,7 +105,7 @@
 ---
 
 ### ROADMAP.md
-**位置**: `gop2p/docs/ROADMAP.md`  
+**位置**: `gobt/docs/ROADMAP.md`  
 **字数**: ~12000  
 **阅读时间**: 45分钟  
 
@@ -129,7 +129,7 @@
 ---
 
 ### SUMMARY.md
-**位置**: `gop2p/docs/SUMMARY.md`  
+**位置**: `gobt/docs/SUMMARY.md`  
 **字数**: ~6000  
 **阅读时间**: 20分钟  
 
@@ -151,7 +151,7 @@
 ---
 
 ### QUICKREF.md
-**位置**: `gop2p/docs/QUICKREF.md`  
+**位置**: `gobt/docs/QUICKREF.md`  
 **字数**: ~7000  
 **阅读时间**: 25分钟  
 
@@ -186,7 +186,7 @@
 ## 🗂️ 文件位置全览
 
 ```
-gop2p/
+gobt/
 ├── README.md                    # 项目首页
 └── docs/
     ├── REQUIREMENTS.md          # 需求文档 ⭐⭐⭐
@@ -448,7 +448,7 @@ gop2p/
 
 **文档中心最后更新**: 2026-07-01  
 **文档版本**: 1.0  
-**维护者**: gop2p项目团队
+**维护者**: gobt项目团队
 
 ---
 

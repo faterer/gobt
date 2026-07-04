@@ -1,7 +1,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════╗
 ║                                                                            ║
-║             🎉 gop2p BitTorrent Client - Week 2 COMPLETED 🎉              ║
+║             🎉 gobt BitTorrent Client - Week 2 COMPLETED 🎉              ║
 ║                                                                            ║
 ║              "从零开始学习：TDD 驱动的 Bencode 实现之旅"                    ║
 ║                                                                            ║
@@ -147,7 +147,7 @@ bdb7dae feat: init project structure with version module
 - 总提交数: 4
 - 新增行数: 2180+
 - 删除行数: 0
-- 贡献者: 1 (GoP2P Learner)
+- 贡献者: 1 (GoBT Learner)
 
 ---
 
@@ -250,7 +250,7 @@ OS:            Windows ✅
 构建系统:      go.mod ✅
 版本控制:      git ✅
 
-项目模块: gop2p
+项目模块: gobt
 主版本:   4.2.0 (BitTorrent 4.2.0)
 ```
 

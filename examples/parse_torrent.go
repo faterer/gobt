@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gop2p/pkg/torrent"
+	"gobt/pkg/torrent"
 	"os"
 	"path/filepath"
 	"sort"

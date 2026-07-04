@@ -8,7 +8,7 @@
 
 ```bash
 # 运行
-go run bencode_simple.go
+go run -tags bencode_example bencode_simple.go
 
 # 输出示例
 # === Bencode 编码示例 ===
@@ -84,7 +84,7 @@ t.Info.Files         // 文件列表
 
 ```bash
 cd examples
-go run bencode_simple.go
+go run -tags bencode_example bencode_simple.go
 ```
 
 输出会显示各种数据类型的编码方式。

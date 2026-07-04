@@ -183,11 +183,11 @@
 
 ### 5.1 命令行接口
 ```bash
-gop2p start <torrent-file>           # 开始下载/上传
-gop2p info <torrent-file>            # 显示torrent信息
-gop2p status                         # 显示当前状态
-gop2p stop                           # 停止任务
-gop2p config [key] [value]           # 配置参数
+gobt start <torrent-file>           # 开始下载/上传
+gobt info <torrent-file>            # 显示torrent信息
+gobt status                         # 显示当前状态
+gobt stop                           # 停止任务
+gobt config [key] [value]           # 配置参数
 ```
 
 ### 5.2 RPC/API接口

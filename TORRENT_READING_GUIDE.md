@@ -2,7 +2,7 @@
 
 ## 概述
 
-这些示例展示了如何使用 `gop2p` 的 torrent 包来创建、读取和分析真实的 `.torrent` 文件。
+这些示例展示了如何使用 `gobt` 的 torrent 包来创建、读取和分析真实的 `.torrent` 文件。
 
 ## 示例程序
 
@@ -81,12 +81,12 @@ go run examples/analyze_torrent.go /path/to/your/file.torrent
     └─ [2] udp://tracker.leechers-paradise.org:6969/announce
 
 【📋 元数据】
-  创建者: gop2p v1.0
+  创建者: gobt v1.0
   创建时间: 2026-07-02 10:13:20 CST
   备注: 演示性多文件 Torrent
 
 【📦 内容概览】
-  名称: gop2p-project
+  名称: gobt-project
   模式: 📂 多文件
   总大小: 235.0 B
   分片数: 4
@@ -130,7 +130,7 @@ go run examples/parse_torrent_advanced.go your-file.torrent
 package main
 
 import (
-    "gop2p/pkg/torrent"
+    "gobt/pkg/torrent"
     "os"
     "crypto/sha1"
 )
@@ -184,7 +184,7 @@ package main
 import (
     "fmt"
     "os"
-    "gop2p/pkg/torrent"
+    "gobt/pkg/torrent"
 )
 
 func main() {

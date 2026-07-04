@@ -79,7 +79,7 @@ $ go run parse_torrent.go
 📝 Metadata:
   Comment:           Multi-file torrent example
   Creation Date:     2026-07-01 15:45:34
-  Created By:        gop2p/4.2.0
+  Created By:        gobt/4.2.0
 
 🔐 Info Hash:
   4305e9990fc0961e513024a0089f5a38f20ceab1
@@ -113,7 +113,7 @@ $ go run parse_torrent.go
 📝 Metadata:
   Comment:           Official Ubuntu 22.04 LTS Desktop ISO
   Creation Date:     2026-07-01 15:45:34
-  Created By:        gop2p/4.2.0
+  Created By:        gobt/4.2.0
 
 🔐 Info Hash:
   d7c96f1308375f4a873db6e5414580b90864e1f7
@@ -144,7 +144,7 @@ torrentDict := map[string]interface{}{
         "pieces": pieceHashes, // 二进制SHA1哈希
     },
     "creation date": time.Now().Unix(),
-    "created by": "gop2p/4.2.0",
+    "created by": "gobt/4.2.0",
 }
 
 // 2. 使用Bencode编码器编码
@@ -467,7 +467,7 @@ examples/ 目录:
 ---
 
 **项目完成日期**: 2026-07-01  
-**版本**: gop2p 4.2.0  
+**版本**: gobt 4.2.0  
 **状态**: ✅ 完全完成  
 
 🎉 **Bencode Torrent Parser 示例项目完成！**
