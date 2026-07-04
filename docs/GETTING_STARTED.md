@@ -278,7 +278,7 @@ gobt/
 继续学习第一阶段，进入Bencode编解码
 
 阅读:
-1. project_plan.md - Week 5 之后的执行计划
+1. README.md - 当前周计划与执行路线
 2. docs/QUICKREF.md - Bencode部分
 
 实现:
@@ -369,7 +369,7 @@ git commit -m "feat: init project"
 ### Q: 如何继续下一步？
 
 **A**:
-参考 `project_plan.md` 的下一周任务，并结合 `docs/QUICKREF.md` 开始实现。
+参考 `README.md` 的周计划部分，并结合 `docs/QUICKREF.md` 开始实现。
 
 ---
 
@@ -380,7 +380,7 @@ git commit -m "feat: init project"
 | 问题 | 文档 |
 |------|------|
 | 不理解项目结构 | docs/INDEX.md |
-| 想了解下一步做什么 | project_plan.md |
+| 想了解下一步做什么 | README.md |
 | 对BitTorrent有疑问 | docs/QUICKREF.md |
 | 想看代码框架 | docs/ARCHITECTURE.md |
 | 想看整体计划 | docs/ROADMAP.md |
