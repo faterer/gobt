@@ -70,11 +70,8 @@ t.Info.Files         // 文件列表
 
 ### 本地文件（examples 目录）
 - **example-demo.torrent** - 简单演示文件（150 B，3 个分片）
-
-### 从父目录加载
-当从 examples 目录运行时，也会找到：
-- **example-file.torrent** - 单文件模式（根目录）
-- **demo-multifile.torrent** - 多文件模式（根目录）
+- **example-file.torrent** - 单文件模式
+- **demo-multifile.torrent** - 多文件模式
 
 ---
 
